@@ -121,8 +121,6 @@
         }
 
         function calcChange() {
-            console.log($("#payment").val());
-            console.log($("#payment").val() - Number($("#total").html().slice(1, $("#total").html().length)));
             $("#change").html("￥" + String($("#payment").val() - Number($("#total").html().slice(1, $("#total").html().length))));
         }
 

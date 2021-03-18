@@ -15,7 +15,9 @@
         <main>
             <div class="py-2 text-center">
                 <h2>オギノエンファーム</h2>
-                <div id="datetime"></div>
+                <div id="datetime">
+
+                </div>
             </div>
             <div class="row g-3">
                 <div class="col-md-5 col-lg-4 order-md-last">
@@ -40,14 +42,15 @@
                             <div class="input-group">
                                 <input type="number" class="form-control" id="payment">
                                 <button class="btn btn-success" type="button" onclick="calcChange()"><strong>お支払</strong></button>
-                                <button class="btn btn-primary" type="submit" disabled><strong>完了</strong></button>
+                                <button class="btn btn-primary" type="submit" disabled=""><strong>完了</strong></button>
                             </div>
                         </form>
                     </div>
                 </div>
                 <div class="col-md-7 col-lg-8">
                     <h4 class="mb-3">商品一覧</h4>
-                    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center" id="menu_list_card">
+                    <div class="row row-cols-1 row-cols-md-4 mb-4 text-center" id="menu_list_card">
+
                     </div>
                 </div>
             </div>
@@ -140,6 +143,8 @@
         }
         setInterval(showtime, 1000);
     </script>
+
+
 </body>
 
 </html>
